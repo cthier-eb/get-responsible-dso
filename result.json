@@ -29311,5 +29311,492 @@
       "voltageTypes": ["Mittelspannung", "Niederspannung"],
       "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
     }
+  ],
+  "way/137247096": [
+    {
+      "id": "730",
+      "name": "TEN Thüringer Energienetze GmbH & Co. KG",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/167051672": [
+    {
+      "id": "1000",
+      "name": "E.DIS Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/345251439": [
+    {
+      "id": "227",
+      "name": "AVU Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/87967859": [
+    {
+      "id": "535",
+      "name": "Schleswig-Holstein Netz AG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/6315753446": [
+    {
+      "id": "7332",
+      "name": "Westnetz GmbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/286375419": [
+    {
+      "id": "496",
+      "name": "EWE NETZ GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/149786335": [
+    {
+      "id": "1000",
+      "name": "E.DIS Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/288336328": [
+    {
+      "id": "496",
+      "name": "EWE NETZ GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/89085125": [
+    {
+      "id": "330",
+      "name": "EAM Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung", "Hochspannung"]
+    }
+  ],
+  "way/161144008": [
+    {
+      "id": "7466",
+      "name": "MVV Netze GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/154817333": [
+    {
+      "id": "202",
+      "name": "ovag Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/23145704": [
+    {
+      "id": "259",
+      "name": "Stromnetz Hamburg GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/130710927": [
+    {
+      "id": "227",
+      "name": "AVU Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/92315670": [
+    {
+      "id": "496",
+      "name": "EWE NETZ GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/157327362": [
+    {
+      "id": "5o6cEyjYeayhTnJA4",
+      "name": "Freiberger Stromversorgung GmbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Niederspannung", "Mittelspannung"]
+    }
+  ],
+  "node/1280679284": [
+    {
+      "id": "7595",
+      "name": "Osterholzer Stadtwerke GmbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/1293754743": [
+    {
+      "id": "7595",
+      "name": "Osterholzer Stadtwerke GmbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/1297570353": [
+    {
+      "id": "7595",
+      "name": "Osterholzer Stadtwerke GmbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/2734564218": [
+    {
+      "id": "7595",
+      "name": "Osterholzer Stadtwerke GmbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/3517736212": [
+    {
+      "id": "7332",
+      "name": "Westnetz GmbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/92725980": [
+    {
+      "id": "1064",
+      "name": "Syna GmbH",
+      "voltageTypes": ["Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    },
+    {
+      "id": "277",
+      "name": "Stadtwerke Heidelberg Netze GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/616337073": [
+    {
+      "id": "7376",
+      "name": "NRM Netzdienste Rhein-Main GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung", "Hochspannung"]
+    },
+    {
+      "id": "1064",
+      "name": "Syna GmbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/109696878": [
+    {
+      "id": "959",
+      "name": "Netzgesellschaft Frankfurt (Oder) mbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/3137479544": [
+    {
+      "id": "7595",
+      "name": "Osterholzer Stadtwerke GmbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/1279663731": [
+    {
+      "id": "7595",
+      "name": "Osterholzer Stadtwerke GmbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/58781806": [
+    {
+      "id": "190",
+      "name": "EGF EnergieGesellschaft Frankenberg mbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/3517736211": [
+    {
+      "id": "7332",
+      "name": "Westnetz GmbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/110558398": [
+    {
+      "id": "766",
+      "name": "Netzgesellschaft Forst (Lausitz) mbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/876161245": [
+    {
+      "id": "7387",
+      "name": "AllgäuNetz GmbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/87952821": [
+    {
+      "id": "535",
+      "name": "Schleswig-Holstein Netz AG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/1082444753": [
+    {
+      "id": "7137",
+      "name": "Avacon Netz GmbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/130539251": [
+    {
+      "id": "1081",
+      "name": "Mitteldeutsche Netzgesellschaft Strom mbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/289451705": [
+    {
+      "id": "508",
+      "name": "Stadtwerke Pappenheim GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/88276389": [
+    {
+      "id": "1000",
+      "name": "E.DIS Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/40261240": [
+    {
+      "id": "330",
+      "name": "EAM Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung", "Hochspannung"]
+    }
+  ],
+  "node/968992462": [
+    {
+      "id": "7387",
+      "name": "AllgäuNetz GmbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/1174025373": [
+    {
+      "id": "7466",
+      "name": "MVV Netze GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/69330350": [
+    {
+      "id": "535",
+      "name": "Schleswig-Holstein Netz AG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/61564989": [
+    {
+      "id": "730",
+      "name": "TEN Thüringer Energienetze GmbH & Co. KG",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/24715748": [
+    {
+      "id": "7203",
+      "name": "wesernetz Bremen GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/24052130": [
+    {
+      "id": "7388",
+      "name": "LSW Netz GmbH & Co. KG",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/765635697": [
+    {
+      "id": "1000",
+      "name": "E.DIS Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/30305137": [
+    {
+      "id": "1000",
+      "name": "E.DIS Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/638697644": [],
+  "way/638697643": [],
+  "way/90046877": [],
+  "node/10282344299": [
+    {
+      "id": "496",
+      "name": "EWE NETZ GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/172041655": [
+    {
+      "id": "7387",
+      "name": "AllgäuNetz GmbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/202432802": [
+    {
+      "id": "1000",
+      "name": "E.DIS Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/179172282": [
+    {
+      "id": "1000",
+      "name": "E.DIS Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/98633217": [
+    {
+      "id": "1000",
+      "name": "E.DIS Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "node/861499978": [
+    {
+      "id": "7387",
+      "name": "AllgäuNetz GmbH & Co. KG",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/369651846": [
+    {
+      "id": "1000",
+      "name": "E.DIS Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/93418613": [
+    {
+      "id": "774",
+      "name": "Neubrandenburger Stadtwerke GmbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/35137205": [
+    {
+      "id": "7069",
+      "name": "Stadtwerke Staßfurt GmbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/148509764": [
+    {
+      "id": "7757",
+      "name": "Energienetze Offenbach GmbH (ENO)",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/317133859": [
+    {
+      "id": "7332",
+      "name": "Westnetz GmbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/34375343": [
+    {
+      "id": "1000",
+      "name": "E.DIS Netz GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/173839168": [
+    {
+      "id": "1081",
+      "name": "Mitteldeutsche Netzgesellschaft Strom mbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Hochspannung", "Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/60798291": [
+    {
+      "id": "496",
+      "name": "EWE NETZ GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/50635590": [
+    {
+      "id": "496",
+      "name": "EWE NETZ GmbH",
+      "voltageTypes": ["Mittelspannung", "Niederspannung"],
+      "types": ["Mittelspannung", "Niederspannung"]
+    }
+  ],
+  "way/425333044": [
+    {
+      "id": "180",
+      "name": "Stadtwerke Eschwege GmbH",
+      "voltageTypes": ["Niederspannung", "Mittelspannung"],
+      "types": ["Niederspannung", "Mittelspannung"]
+    }
   ]
 }
