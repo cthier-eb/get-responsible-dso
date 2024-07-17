@@ -6,10 +6,11 @@ import logging
 import argparse
 from pyproj import Proj, Transformer
 import random
-from nordvpn_switcher import initialize_VPN, rotate_VPN, terminate_VPN
+
+#
 
 
-vpn_settings = initialize_VPN()
+# vpn_settings = initialize_VPN()
 
 # %%
 
@@ -176,6 +177,48 @@ def execute_query(variables, retry_count=0, max_retries=5):
             return False
 
 
+method = input("Enter the method to use (scraperAPI or nordVPN): ")
+
+if (method == "scraperAPI"):
+    scraperAPI_key = input("Enter the ScraperAPI key: ")
+else:
+    from nordvpn_switcher import initialize_VPN, rotate_VPN, terminate_VPN
+    vpn_settings = initialize_VPN()
+
+
+def execute_query_scraperAPI(variables, retry_count=0, max_retries=5):
+    url = "https://api.scraperapi.com"
+
+    original_url = "https://www.vnbdigital.de/gateway/graphql"
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "User-Agent": get_random_user_agent()
+    }
+
+    params = {
+        "api_key": scraperAPI_key,
+        "url": original_url
+    }
+
+    query = get_query_selector()
+    payload = {
+        "query": query,
+        "variables": variables
+    }
+
+    try:
+        response = requests.post(url, headers=headers,
+                                 params=params, json=payload)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            return False
+    except Exception as e:
+        print(f"Failed with exception: {e}")
+        return False
+
+
 if __name__ == "__main__":
 
     # Create the parser
@@ -200,8 +243,6 @@ if __name__ == "__main__":
     # The coordinates are in column Longiture and Latitude
     # We will iterate over the rows and get the coordinates
     i = 1
-    with open("result.json", "r", encoding="utf-8") as f:
-        dataSet = json.load(f)
 
     # dataSet = {}
 
@@ -210,9 +251,12 @@ if __name__ == "__main__":
 
     data["vnb-digital"] = ""
     data["voltage-levels"] = ""
-    rotate_VPN(vpn_settings)
+    # rotate_VPN(vpn_settings)
+    with open("result.json", "r", encoding="utf-8") as f:
+        dataSet = json.load(f)
 
     for index, row in data.iterrows():
+
         if (row["id"] in dataSet):
             i += 1
             print(f"Already processed {row['id']}")
@@ -235,7 +279,10 @@ if __name__ == "__main__":
             "coordinates": f"{x},{y}",
             "withCoordinates": True
         }
-        result = execute_query(variables)
+        if (method == "scraperAPI"):
+            result = execute_query_scraperAPI(variables)
+        else:
+            result = execute_query(variables)
 
         print(i)
 
@@ -270,7 +317,8 @@ if __name__ == "__main__":
         with open("result.json", "w", encoding="utf-8") as f:
             json.dump(dataSet, f, ensure_ascii=False, indent=4)
         if (i % 50 == 0):
-            rotate_VPN(vpn_settings)
+            if (method != "scraperAPI"):
+                rotate_VPN(vpn_settings)
 
             # Write the dataframe to an updated file
             with pd.ExcelWriter("updatedData.xlsx", engine="openpyxl") as writer:
@@ -279,10 +327,10 @@ if __name__ == "__main__":
         # print(convert_to_regular_coordinates(lon, lat))
         i += 1
         # Get random sleep time between 1 and 5 seconds
-        sleep_time = 0 + (2*random.random())
-        if (i % 20 == 0):
-            time.sleep(4 + (2*random.random()))
-        time.sleep(sleep_time)
+        # sleep_time = 0 + (2*random.random())
+        # if (i % 20 == 0):
+        #     time.sleep(4 + (2*random.random()))
+        # time.sleep(sleep_time)
 
     with open("result.json", "w", encoding="utf-8") as f:
         json.dump(dataSet, f, ensure_ascii=False, indent=4)
