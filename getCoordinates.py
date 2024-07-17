@@ -237,7 +237,7 @@ if __name__ == "__main__":
         args.loglevel), filename="getCoordinates.log", filemode="w", format="%(asctime)s - %(levelname)s - %(message)s")
 
     # Load the data from the XLSX
-    data = pd.read_excel("grid_connection_points.xlsx")
+    data = pd.read_excel("grid_connection_points_original.xlsx")
     data = data.reset_index(drop=True)
 
     # The coordinates are in column Longiture and Latitude
@@ -316,7 +316,7 @@ if __name__ == "__main__":
 
         with open("result.json", "w", encoding="utf-8") as f:
             json.dump(dataSet, f, ensure_ascii=False, indent=4)
-        if (i % 50 == 0):
+        if (i % 100 == 0):
             if (method != "scraperAPI"):
                 rotate_VPN(vpn_settings)
 
@@ -327,10 +327,20 @@ if __name__ == "__main__":
         # print(convert_to_regular_coordinates(lon, lat))
         i += 1
         # Get random sleep time between 1 and 5 seconds
-        # sleep_time = 0 + (2*random.random())
-        # if (i % 20 == 0):
-        #     time.sleep(4 + (2*random.random()))
-        # time.sleep(sleep_time)
+        if (method != "scraperAPI"):
+            sleep_time = 0 + (3*random.random())
+            if (random.random() < 0.025):
+                time.sleep(4 + (2*random.random()))
+                terminate_VPN(vpn_settings)
+                rotate_VPN(vpn_settings)
+            if (i % 20 == 0):
+                time.sleep(4 + (2*random.random()))
+            time.sleep(sleep_time)
+
+        if (i % 250 == 0):
+            print(f"Processed {i} rows")
+            # After 250 rows, make a longer break
+            time.sleep(120)
 
     with open("result.json", "w", encoding="utf-8") as f:
         json.dump(dataSet, f, ensure_ascii=False, indent=4)
